@@ -6,6 +6,7 @@ import sys
 from django.db import models
 
 class YourModel(models.Model):
+    title = models.CharField(max_length=200)
     
 def main():
     """Run administrative tasks."""
