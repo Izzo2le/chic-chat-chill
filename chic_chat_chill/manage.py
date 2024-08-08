@@ -5,6 +5,8 @@ import sys
 
 from django.db import models
 
+class YourModel(models.Model):
+    
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chic_chat_chill.settings')
