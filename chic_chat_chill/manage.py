@@ -11,6 +11,9 @@ class YourModel(models.Model):
      created_at = models.DateTimeField(auto_now_add=True)
       updated_at = models.DateTimeField(auto_now=True)
      
+    def __str__(self):
+        return self.title
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chic_chat_chill.settings')
