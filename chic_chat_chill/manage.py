@@ -7,7 +7,7 @@ from django.db import models
 
 class YourModel(models.Model):
     title = models.CharField(max_length=200)
-    
+     content = models.TextField()
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chic_chat_chill.settings')
