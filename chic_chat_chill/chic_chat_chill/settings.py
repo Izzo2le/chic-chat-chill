@@ -17,8 +17,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'chic_chat_chill', 
+    'chic_chat_chill',  
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
