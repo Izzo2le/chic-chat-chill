@@ -58,6 +58,9 @@ DATABASES = {
     }
 }
 
+# settings.py
+
+AUTH_USER_MODEL = 'chic_chat_chill.User'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
