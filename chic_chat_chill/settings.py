@@ -57,9 +57,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
-# settings.py
-
 AUTH_USER_MODEL = 'chic_chat_chill.User'
 
 AUTH_PASSWORD_VALIDATORS = [
