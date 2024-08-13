@@ -1,5 +1,4 @@
 from django.contrib import admin
-from .models import YourModel
+from .models import User
 
-
-admin.site.register(chic_chat_chill)
+admin.site.register(User)
