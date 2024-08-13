@@ -58,8 +58,6 @@ DATABASES = {
     }
 }
 
-AUTH_USER_MODEL = 'chic_chat_chill.User'
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -110,6 +108,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'chic_chat_chill', 
 ]
+
+AUTH_USER_MODEL = 'chic_chat_chill.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
